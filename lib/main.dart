@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:img_picker/load_content_view.dart';
+import 'package:img_picker/home.dart';
 
 void main() {
   runApp(const MyApp());
@@ -11,12 +11,12 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Face Detection App',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: LoadContentView(),
+      home: const HomeView(),
     );
   }
 }
