@@ -32,16 +32,24 @@ class _LoadContentViewState extends State<LoadContentView> {
               child: Container(
                 height: 300,
                 decoration: BoxDecoration(
+                    //! Model B
+                    image: _image != null
+                        ? DecorationImage(
+                            image: FileImage(File(_image!.path)),
+                            fit: BoxFit.cover,
+                          )
+                        : null,
                     borderRadius: BorderRadius.circular(50),
                     border: Border.all(
                       strokeAlign: BorderSide.strokeAlignCenter,
                       width: 8,
                       color: Colors.purple,
                     )),
-                child: _image != null
-                    
-                    ? Image.file(File(_image!.path))
-                    : Container(),
+                //! Model A
+                // child: _image != null
+
+                //     ? Image.file(File(_image!.path))
+                //     : Container(),
               ),
             ),
             const SizedBox(height: 40),
