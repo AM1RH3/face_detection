@@ -1,4 +1,4 @@
 # img_picker
 
 Support Device : Android & ios
-  <img src="h3shop.gif" alt="gif" width="230"/>
+  <img src="image_picker.png" alt="shot" width="150" align="center"/>
