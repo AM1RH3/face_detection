@@ -60,7 +60,7 @@ class _HomeViewState extends State<HomeView> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Face Detection | Google ML Kit'),
+        title: const Text('Face Detection'),
         backgroundColor: Colors.white,
       ),
       body: Stack(
