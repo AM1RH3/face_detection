@@ -1,4 +1,4 @@
-# img_picker
+# Face Detection
 
  <p>Support Device :</p>
 <p> • Android</p>
@@ -7,6 +7,6 @@
 <p> • Web</p>
 <table align="left">
 <td>
-  <img src="image_picker.png" alt="shot" width="150" align="right"/>
-  <img src="wimage_picker.png" alt="wshot" width="150" align="center"/>
+  <img src="face_detection.png" alt="shot" width="150" align="right"/>
+  
   </td>
